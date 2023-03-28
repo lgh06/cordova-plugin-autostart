@@ -50,7 +50,7 @@
                 </intent-filter>
             </receiver>
             <receiver
-                android:name="com.tonikorin.cordova.plugin.autostart.PackageReplacedReceiver" android:enabled="true" android:exported="false">
+                android:name="com.tonikorin.cordova.plugin.autostart.PackageReplacedReceiver" android:enabled="true" android:exported="true">
                 <intent-filter>
                     <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
                 </intent-filter>
